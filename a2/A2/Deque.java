@@ -111,7 +111,7 @@ public class Deque<Item> implements Iterable<Item> {
    
    public static void main(String[] args)   // unit testing (optional)
    {
-   Deque <String> q = new Deque<String>();
+//   Deque <String> q = new Deque<String>();
    
 //   while(!StdIn.isEmpty())
 //   {
@@ -129,32 +129,32 @@ public class Deque<Item> implements Iterable<Item> {
 //   q.addLast("c");
 //    q.addLast("d");
    
-       q.addFirst("a");
-       q.addLast("b");
-//       q.removeLast();
-       StdOut.print(q.size());
-       StdOut.print("\n");
-       Iterator it = q.iterator();
-       while( it.hasNext() ) {
-           StdOut.print( it.next() );
-       }
-       
-   q.addLast("a");
+//       q.addFirst("a");
+//       q.addLast("b");
+////       q.removeLast();
+//       StdOut.print(q.size());
+//       StdOut.print("\n");
+//       Iterator it = q.iterator();
+//       while( it.hasNext() ) {
+//           StdOut.print( it.next() );
+//       }
+//       
+//   q.addLast("a");
 //   q.addFirst("b");
    
        
 //        q.addFirst("b");
-   int s = q.size();
-   for(int i=0; i < s;i++){
-   StdOut.print("##:" + q.removeFirst()+ "\n");
-   }
-   
-   
-   Deque <String> p = new Deque<String>();
-   
-//          p.isEmpty();
-          p.addLast("a");
-          p.removeLast();
+//   int s = q.size();
+//   for(int i=0; i < s;i++){
+//   StdOut.print("##:" + q.removeFirst()+ "\n");
+//   }
+//   
+//   
+//   Deque <String> p = new Deque<String>();
+//   
+////          p.isEmpty();
+//          p.addLast("a");
+//          p.removeLast();
              
    
    }
